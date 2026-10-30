@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">MC GIS 无人机照片红线自动匹配工具图标</title>
+  <desc id="desc">MC Software Visual Identity System V1.0. Keep mc-brand-header unchanged and replace app-artwork for other applications.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <clipPath id="avatar-clip">
+      <rect x="96" y="92" width="128" height="128" rx="28"/>
+    </clipPath>
+    <clipPath id="map-clip">
+      <rect x="208" y="440" width="560" height="384" rx="48"/>
+    </clipPath>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="208" fill="url(#background)"/>
+  <circle cx="860" cy="850" r="300" fill="#FFFFFF" opacity="0.03"/>
+  <g id="app-artwork">
+    <ellipse cx="512" cy="836" rx="288" ry="40" fill="#020617" opacity="0.35" filter="url(#soft-shadow)"/>
+    <rect x="280" y="368" width="480" height="384" rx="48" fill="#047857"/>
+    <rect x="248" y="400" width="480" height="384" rx="48" fill="#10B981"/>
+    <g clip-path="url(#map-clip)">
+      <rect x="208" y="440" width="184" height="384" fill="#34D399"/>
+      <rect x="392" y="440" width="184" height="384" fill="#10B981"/>
+      <rect x="576" y="440" width="192" height="384" fill="#059669"/>
+      <rect x="386" y="456" width="12" height="352" fill="#FFFFFF" opacity="0.14"/>
+      <rect x="570" y="456" width="12" height="352" fill="#FFFFFF" opacity="0.12"/>
+    </g>
+    <path d="M328 574 L474 486 L648 528 L712 650 L590 752 L408 710 Z" fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
+    <path d="M328 574 L474 486 L648 528 L712 650 L590 752 L408 710 Z" fill="none" stroke="#EF4444" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M520 610 L548 680 L576 610 Z" fill="#2563EB"/>
+    <circle cx="548" cy="602" r="58" fill="#2563EB" stroke="#FFFFFF" stroke-width="8"/>
+    <circle cx="548" cy="602" r="20" fill="#F8FAFC"/>
+  </g>
+  <g id="mc-brand-header">
+    <path d="M240 32 H784 Q992 32 992 240 V282 H32 V240 Q32 32 240 32 Z" fill="#F8FAFC"/>
+    <rect x="32" y="276" width="960" height="6" fill="#2563EB"/>
+    <image href="creator-avatar.png" x="96" y="92" width="128" height="128" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)"/>
+    <rect x="96" y="92" width="128" height="128" rx="28" fill="none" stroke="#CBD5E1" stroke-width="3"/>
+    <text x="264" y="160" dominant-baseline="middle" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="128" font-weight="700" letter-spacing="-5">MC</text>
+    <line x1="496" y1="104" x2="496" y2="220" stroke="#CBD5E1" stroke-width="3"/>
+    <text x="536" y="164" dominant-baseline="middle" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="600">GIS</text>
+  </g>
+  <rect x="34" y="34" width="956" height="956" rx="206" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
+</svg>
